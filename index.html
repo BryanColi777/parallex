@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Parallax Website</title>
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+      }
+
+      /* Navigation Bar */
+      .navbar {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        background-color: rgba(247, 236, 236, 0.7); /* Transparent background */
+        padding: 10px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        z-index: 1000;
+        display: flex;
+        justify-content: flex-start;
+      }
+
+      .navbar a {
+        text-decoration: none;
+        color: #333;
+        padding: 10px 20px;
+        transition: background-color 0.3s;
+      }
+
+      .navbar a:hover {
+        background-color: rgba(255, 255, 255, 0.5);
+      }
+
+      /* Sections */
+      .section {
+        padding: 60px 20px;
+        text-align: center;
+      }
+
+      .pimg1, .pimg2, .pimg3 {
+        height: 100vh;
+        background-size: cover;
+        background-position: center;
+      }
+
+      .pimg1 { background-image: url('https://images.unsplash.com/photo-1659379790506-188d28af530d?q=80&w=1674&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'); }
+      .pimg2 { background-image: url('https://cdn.pixabay.com/photo/2018/08/01/21/26/map-3578213_1280.jpg'); }
+      .pimg3 { background-image: url('https://cdn.pixabay.com/photo/2016/01/09/18/27/journey-1130732_640.jpg'); }
+
+      .ptext {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: white;
+        font-size: 3em;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="navbar">
+      <a href="#">Home</a>
+      <a href="tours.html">Tour</a>
+      <a href="Contact us.html">Contact Us</a>
+    </div>
+    
+    <section class="pimg1" id="home">
+      <div class="ptext">
+        <span class="textBg"> Radhe Tours </span>
+      </div>
+    </section>
+    <section class="section section-light" id="tour">
+      <h2>Explore the World with Us!</h2>
+      <p>
+        At Radhe Tour, we believe that travel is not just about reaching a destination, but about the experiences you create along the way. Whether you’re dreaming of pristine beaches, vibrant cityscapes, or breathtaking mountains, our curated tours offer something for everyone. Our expert guides are passionate about sharing the hidden gems of each location, ensuring you experience the culture, history, and beauty of your chosen destination.
+
+From adventurous treks to relaxing getaways, we provide personalized itineraries tailored to your preferences. With our commitment to safety and sustainability, you can travel confidently, knowing that your journey is in good hands. Join us and discover the joy of travel—your adventure awaits!.      </p>
+    </section>
+    <section class="pimg2" id="packages">
+      <div class="ptext">
+        <span class="textBg"> Explore Nature</span>
+      </div>
+    </section>
+    <section class="section section-dark">
+      <h2>Your Journey, Our Passion</h2>
+      <p>
+        At Radhe Tour, we pride ourselves on delivering exceptional tours that prioritize your comfort and enjoyment. Our friendly team is dedicated to creating a welcoming atmosphere, ensuring that every traveler feels at home. With our experienced drivers at the helm, you can relax and focus on the beautiful sights and experiences that await you.
+
+        We understand that a great journey is built on trust and connection. That’s why we go the extra mile to provide personalized service, making your adventure memorable and stress-free. Whether you’re exploring local attractions or venturing off the beaten path, we guarantee a smooth ride and insightful commentary every step of the way. Join us for an unforgettable travel experience where your satisfaction is our top priority!
+      </p>
+    </section>
+    <section class="pimg3" id="contact">
+      <div class="ptext">
+        <span class="textBg"> LOOK, DEEP INTO NATURE</span>
+      </div>
+    </section>
+    <section class="section section-dark">
+      <h2>Experience Unmatched Travel Adventures</h2>
+      <p>
+        With our 24/7 support, you can travel with peace of mind, knowing that assistance is always just a call away. Your trust is our top priority, and we strive to build lasting relationships with our customers through transparency and reliability. Whether you're exploring stunning landscapes, vibrant cities, or hidden gems, we aim to make every moment memorable.
+
+Join us for an unforgettable journey where you can relax, enjoy the sights, and create lasting memories. Your adventure awaits!we are committed to delivering the best travel experiences in a friendly and welcoming environment. Our knowledgeable and experienced drivers not only ensure a smooth and safe journey but also enrich your adventure with local insights and stories. We understand that every traveler is unique, which is why we prioritize your comfort and satisfaction by offering personalized service tailored to your needs.
+      </p>
+    </section>
+    <section class="pimg1">
+      <div class="ptext">
+        <span class="textBg"> Contact Us </span>
+      </div>
+    </section>
+  </body>
+</html>
